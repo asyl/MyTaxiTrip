@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A71D83231F5C81A5007959F1 /* AIDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71D83221F5C81A5007959F1 /* AIDetailViewController.m */; };
+		A71D832C1F5C8781007959F1 /* AITripCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A71D832B1F5C8781007959F1 /* AITripCell.m */; };
+		A71D832F1F5C8B1C007959F1 /* AIDetailViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A71D832E1F5C8B1C007959F1 /* AIDetailViewModel.m */; };
+		A74995391F5CED8000E99351 /* MyTaxiTrip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A749951D1F5CE5F700E99351 /* MyTaxiTrip.xcdatamodeld */; };
+		A74995431F5CF06400E99351 /* AITrip.m in Sources */ = {isa = PBXBuildFile; fileRef = A74995421F5CF06400E99351 /* AITrip.m */; };
+		A75870781F5ADD01003BD777 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A75870771F5ADD01003BD777 /* main.m */; };
+		A758707B1F5ADD01003BD777 /* AIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A758707A1F5ADD01003BD777 /* AIAppDelegate.m */; };
+		A758707E1F5ADD01003BD777 /* AITripListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A758707D1F5ADD01003BD777 /* AITripListViewController.m */; };
+		A75870811F5ADD01003BD777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A758707F1F5ADD01003BD777 /* Main.storyboard */; };
+		A75870861F5ADD01003BD777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A75870851F5ADD01003BD777 /* Assets.xcassets */; };
+		A75870891F5ADD01003BD777 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75870871F5ADD01003BD777 /* LaunchScreen.storyboard */; };
+		A75870921F5AE002003BD777 /* AICoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = A75870911F5AE002003BD777 /* AICoreDataStack.m */; };
+		A77CE5E91F5BEA3900A87A95 /* AITripListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A77CE5E81F5BEA3900A87A95 /* AITripListViewModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A71D83211F5C81A5007959F1 /* AIDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIDetailViewController.h; sourceTree = "<group>"; };
+		A71D83221F5C81A5007959F1 /* AIDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIDetailViewController.m; sourceTree = "<group>"; };
+		A71D832A1F5C8781007959F1 /* AITripCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AITripCell.h; sourceTree = "<group>"; };
+		A71D832B1F5C8781007959F1 /* AITripCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AITripCell.m; sourceTree = "<group>"; };
+		A71D832D1F5C8B1C007959F1 /* AIDetailViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIDetailViewModel.h; sourceTree = "<group>"; };
+		A71D832E1F5C8B1C007959F1 /* AIDetailViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIDetailViewModel.m; sourceTree = "<group>"; };
+		A749951E1F5CE5F700E99351 /* MyTaxiTrip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyTaxiTrip.xcdatamodel; sourceTree = "<group>"; };
+		A74995331F5CED4700E99351 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A74995351F5CED5700E99351 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A74995371F5CED6400E99351 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A74995411F5CF06400E99351 /* AITrip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AITrip.h; sourceTree = "<group>"; };
+		A74995421F5CF06400E99351 /* AITrip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AITrip.m; sourceTree = "<group>"; };
+		A75870731F5ADD01003BD777 /* MyTaxiTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTaxiTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75870771F5ADD01003BD777 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A75870791F5ADD01003BD777 /* AIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIAppDelegate.h; sourceTree = "<group>"; };
+		A758707A1F5ADD01003BD777 /* AIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIAppDelegate.m; sourceTree = "<group>"; };
+		A758707C1F5ADD01003BD777 /* AITripListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AITripListViewController.h; sourceTree = "<group>"; };
+		A758707D1F5ADD01003BD777 /* AITripListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AITripListViewController.m; sourceTree = "<group>"; };
+		A75870801F5ADD01003BD777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A75870851F5ADD01003BD777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A75870881F5ADD01003BD777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A758708A1F5ADD01003BD777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A75870901F5AE002003BD777 /* AICoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AICoreDataStack.h; sourceTree = "<group>"; };
+		A75870911F5AE002003BD777 /* AICoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AICoreDataStack.m; sourceTree = "<group>"; };
+		A77CE5E71F5BEA3900A87A95 /* AITripListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AITripListViewModel.h; sourceTree = "<group>"; };
+		A77CE5E81F5BEA3900A87A95 /* AITripListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AITripListViewModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A75870701F5ADD01003BD777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A71D83201F5C814C007959F1 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				A71D83211F5C81A5007959F1 /* AIDetailViewController.h */,
+				A71D83221F5C81A5007959F1 /* AIDetailViewController.m */,
+				A71D832D1F5C8B1C007959F1 /* AIDetailViewModel.h */,
+				A71D832E1F5C8B1C007959F1 /* AIDetailViewModel.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		A74995321F5CED4600E99351 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A74995371F5CED6400E99351 /* UIKit.framework */,
+				A74995351F5CED5700E99351 /* Foundation.framework */,
+				A74995331F5CED4700E99351 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A758706A1F5ADD01003BD777 = {
+			isa = PBXGroup;
+			children = (
+				A75870751F5ADD01003BD777 /* MyTaxiTrip */,
+				A75870741F5ADD01003BD777 /* Products */,
+				A74995321F5CED4600E99351 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A75870741F5ADD01003BD777 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A75870731F5ADD01003BD777 /* MyTaxiTrip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A75870751F5ADD01003BD777 /* MyTaxiTrip */ = {
+			isa = PBXGroup;
+			children = (
+				A75870791F5ADD01003BD777 /* AIAppDelegate.h */,
+				A758707A1F5ADD01003BD777 /* AIAppDelegate.m */,
+				A75870901F5AE002003BD777 /* AICoreDataStack.h */,
+				A75870911F5AE002003BD777 /* AICoreDataStack.m */,
+				A75870851F5ADD01003BD777 /* Assets.xcassets */,
+				A75870931F5AE00D003BD777 /* ViewControllers */,
+				A75870941F5B23B0003BD777 /* Models */,
+				A75870871F5ADD01003BD777 /* LaunchScreen.storyboard */,
+				A758708A1F5ADD01003BD777 /* Info.plist */,
+				A75870761F5ADD01003BD777 /* Supporting Files */,
+			);
+			path = MyTaxiTrip;
+			sourceTree = "<group>";
+		};
+		A75870761F5ADD01003BD777 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A75870771F5ADD01003BD777 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A75870931F5AE00D003BD777 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A758707F1F5ADD01003BD777 /* Main.storyboard */,
+				A77CE5E61F5BE9B000A87A95 /* TripList */,
+				A71D83201F5C814C007959F1 /* Detail */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A75870941F5B23B0003BD777 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A749951D1F5CE5F700E99351 /* MyTaxiTrip.xcdatamodeld */,
+				A74995411F5CF06400E99351 /* AITrip.h */,
+				A74995421F5CF06400E99351 /* AITrip.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A77CE5E61F5BE9B000A87A95 /* TripList */ = {
+			isa = PBXGroup;
+			children = (
+				A758707C1F5ADD01003BD777 /* AITripListViewController.h */,
+				A758707D1F5ADD01003BD777 /* AITripListViewController.m */,
+				A77CE5E71F5BEA3900A87A95 /* AITripListViewModel.h */,
+				A77CE5E81F5BEA3900A87A95 /* AITripListViewModel.m */,
+				A71D832A1F5C8781007959F1 /* AITripCell.h */,
+				A71D832B1F5C8781007959F1 /* AITripCell.m */,
+			);
+			name = TripList;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A75870721F5ADD01003BD777 /* MyTaxiTrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A758708D1F5ADD01003BD777 /* Build configuration list for PBXNativeTarget "MyTaxiTrip" */;
+			buildPhases = (
+				A758706F1F5ADD01003BD777 /* Sources */,
+				A75870701F5ADD01003BD777 /* Frameworks */,
+				A75870711F5ADD01003BD777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTaxiTrip;
+			productName = MyTaxiTrip;
+			productReference = A75870731F5ADD01003BD777 /* MyTaxiTrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A758706B1F5ADD01003BD777 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = asyl;
+				TargetAttributes = {
+					A75870721F5ADD01003BD777 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V4N7MCQL25;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A758706E1F5ADD01003BD777 /* Build configuration list for PBXProject "MyTaxiTrip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A758706A1F5ADD01003BD777;
+			productRefGroup = A75870741F5ADD01003BD777 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A75870721F5ADD01003BD777 /* MyTaxiTrip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A75870711F5ADD01003BD777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75870891F5ADD01003BD777 /* LaunchScreen.storyboard in Resources */,
+				A75870861F5ADD01003BD777 /* Assets.xcassets in Resources */,
+				A75870811F5ADD01003BD777 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A758706F1F5ADD01003BD777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74995391F5CED8000E99351 /* MyTaxiTrip.xcdatamodeld in Sources */,
+				A71D832C1F5C8781007959F1 /* AITripCell.m in Sources */,
+				A74995431F5CF06400E99351 /* AITrip.m in Sources */,
+				A758707E1F5ADD01003BD777 /* AITripListViewController.m in Sources */,
+				A77CE5E91F5BEA3900A87A95 /* AITripListViewModel.m in Sources */,
+				A758707B1F5ADD01003BD777 /* AIAppDelegate.m in Sources */,
+				A75870921F5AE002003BD777 /* AICoreDataStack.m in Sources */,
+				A71D832F1F5C8B1C007959F1 /* AIDetailViewModel.m in Sources */,
+				A75870781F5ADD01003BD777 /* main.m in Sources */,
+				A71D83231F5C81A5007959F1 /* AIDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A758707F1F5ADD01003BD777 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A75870801F5ADD01003BD777 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A75870871F5ADD01003BD777 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A75870881F5ADD01003BD777 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A758708B1F5ADD01003BD777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A758708C1F5ADD01003BD777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A758708E1F5ADD01003BD777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V4N7MCQL25;
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = MyTaxiTrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = io.codetail.MyTaxiTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A758708F1F5ADD01003BD777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V4N7MCQL25;
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = MyTaxiTrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = io.codetail.MyTaxiTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A758706E1F5ADD01003BD777 /* Build configuration list for PBXProject "MyTaxiTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A758708B1F5ADD01003BD777 /* Debug */,
+				A758708C1F5ADD01003BD777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A758708D1F5ADD01003BD777 /* Build configuration list for PBXNativeTarget "MyTaxiTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A758708E1F5ADD01003BD777 /* Debug */,
+				A758708F1F5ADD01003BD777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A749951D1F5CE5F700E99351 /* MyTaxiTrip.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A749951E1F5CE5F700E99351 /* MyTaxiTrip.xcdatamodel */,
+			);
+			currentVersion = A749951E1F5CE5F700E99351 /* MyTaxiTrip.xcdatamodel */;
+			path = MyTaxiTrip.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A758706B1F5ADD01003BD777 /* Project object */;
+}
